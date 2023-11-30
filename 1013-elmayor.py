@@ -1,0 +1,6 @@
+operaciones = input() .split()
+A = int(operaciones[0])
+B = int(operaciones[1])
+C = int(operaciones[2])
+MAIORAB = max(A, B, C)
+print(str(MAIORAB) + " eh o maior")
